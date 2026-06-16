@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "UCRT64 (MSYS2)",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/src/glad",
+                "C:/msys64/ucrt64/include",
+                "C:/msys64/ucrt64/include/c++",
+                "C:/msys64/ucrt64/include/c++/x86_64-w64-mingw32"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src",
+                    "C:/msys64/ucrt64/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

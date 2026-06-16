@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\SimplePhysicsEngine.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\SimplePhysicsEngine.dir/objects.a @CMakeFiles\SimplePhysicsEngine.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\SimplePhysicsEngine.dir/objects.a -Wl,--no-whole-archive -o SimplePhysicsEngine.exe -Wl,--out-implib,libSimplePhysicsEngine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SimplePhysicsEngine.dir\linkLibs.rsp
